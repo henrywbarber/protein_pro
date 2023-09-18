@@ -1,38 +1,77 @@
+/**
+ * @file App.css
+ * @description Defines the styles for the main application layout and its components.
+ * This CSS file includes styles for the application's background, layout container, grid system,
+ * header titles, and form elements.
+ * @author Henry Barber
+ * @date 09/18/2023
+ */
+
+body {
+  background-color: #f0ead6;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* Style for container of app */
 .App {
-  text-align: center;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  /* Subtle depth effect */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Grid for four sections */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  gap: 20px;
+  margin: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.grid-item {
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Titles in header */
+.header h1 {
+  text-align: left;
+  padding-bottom: 0px;
+  margin: 0;
 }
 
-.App-link {
-  color: #61dafb;
+.header h2 {
+  text-align: left;
+  padding-bottom: 20px;
+  font-size: 90%;
+  color: grey;
+  margin: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Form elements */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #6b584c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #50423a;
 }

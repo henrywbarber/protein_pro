@@ -1,0 +1,66 @@
+/**
+ * @file MealForm.css
+ * @description Defines the styles for the MealForm component, which is responsible for rendering
+ * the form to add a new meal. This CSS file includes styles for form elements, input fields,
+ * and layout of the MealForm component.
+ * @author Henry Barber
+ * @date 09/18/2023
+ */
+
+.meal-form {
+    padding: 20px;
+    background-color: #ffffff;
+    font-weight: bold;
+    color: #6b584c;
+    border-radius: 10px;
+    /* Subtle depth effect */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.meal-name {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+/* Add padding between the label and input for the meal name */
+.form-group label {
+    padding-right: 10px;
+}
+
+.form-group input {
+    color: #6b584c;
+    font-weight: bold;
+    /* Earthy brown text color */
+}
+
+/* Create a two-column layout for nutritional information */
+.columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Style for individual columns */
+.column {
+    flex: 1;
+}
+
+/* Set a maximum width for input elements */
+input {
+    width: 100%;
+    max-width: 150px;
+}
+
+button {
+    width: 100%;
+}
+
+.meal-form input:hover {
+    border-color: #6b584c;
+}

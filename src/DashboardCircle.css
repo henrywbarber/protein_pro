@@ -1,0 +1,49 @@
+/**
+ * @file DashboardCircle.css
+ * @description Defines the styles for the DashboardCircle component, including the circular dashboard,
+ * its categories, and labels.
+ * @author Henry Barber
+ * @date 09/18/2023
+ */
+
+.dashboard-circle {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+/* Background circle styles */
+.bg-circle {
+    fill: none;
+    stroke: #f0ead6;
+    stroke-width: 10;
+    stroke-dasharray: 315;
+    stroke-dashoffset: 0;
+}
+
+/* Filled circle styles */
+.fill-circle {
+    fill: none;
+    stroke-width: 10;
+    stroke-linecap: round;
+    transform: rotate(-90deg);
+    transform-origin: center;
+    transition: stroke-dashoffset 0.3s ease-in-out;
+}
+
+.category-label {
+    font-weight: bold;
+}
+
+.category-value {
+    font-size: 1.2rem;
+    font-weight: bold;
+    fill: #6b584c;
+    dominant-baseline: middle;
+    text-anchor: middle;
+}

@@ -1,0 +1,17 @@
+/**
+ * @file Dashboard.css
+ * @description Defines the styles for the dashboard component, centering the content 
+ * both horizontally and vertically.
+ * @author Henry Barber
+ * @date 09/18/2023
+ */
+
+/* Center-aligning content */
+.dashboard {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

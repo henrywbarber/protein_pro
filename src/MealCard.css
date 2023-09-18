@@ -1,0 +1,34 @@
+/**
+ * @file MealCard.css
+ * @description Defines the styles for the MealCard component, including the meal card container,
+ * meal information section, and the remove button.
+ * @author Henry Barber
+ * @date 09/18/2023
+ */
+
+.meal-card {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Allocate available space */
+.meal-info {
+    flex-grow: 1;
+}
+
+.remove-button {
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.remove-button:hover {
+    background-color: #cc4533;
+}

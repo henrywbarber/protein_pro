@@ -1,0 +1,52 @@
+/**
+ * @file NutritionGoals.css
+ * @description Defines the styles for the NutritionGoals component.
+ * This CSS file contains styles for the NutritionGoals component.
+ * @author Henry Barber
+ * @date 09/18/2023
+ */
+
+.nutrition-goals {
+    background-color: #f8f8f8;
+    color: #6b584c;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+}
+
+.nutrition-goals h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.nutrition-goals div {
+    margin-bottom: 20px;
+}
+
+.nutrition-goals label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Input fields within the NutritionGoals component */
+.nutrition-goals input {
+    width: 100%;
+    padding: 10px;
+    color: #6b584c;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease-in-out;
+    /* Background pattern for input fields */
+    background-image: repeating-linear-gradient(45deg,
+            transparent,
+            transparent 10px,
+            rgba(0, 0, 0, 0.05) 10px,
+            rgba(0, 0, 0, 0.05) 20px);
+}
+
+.nutrition-goals input:hover {
+    border-color: #6b584c;
+}
