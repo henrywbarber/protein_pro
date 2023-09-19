@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/protein_pro/static/css/main.e25de60e.css",
+    "main.js": "/protein_pro/static/js/main.23cfcf8c.js",
+    "static/js/787.12907fb0.chunk.js": "/protein_pro/static/js/787.12907fb0.chunk.js",
+    "index.html": "/protein_pro/index.html",
+    "main.e25de60e.css.map": "/protein_pro/static/css/main.e25de60e.css.map",
+    "main.23cfcf8c.js.map": "/protein_pro/static/js/main.23cfcf8c.js.map",
+    "787.12907fb0.chunk.js.map": "/protein_pro/static/js/787.12907fb0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e25de60e.css",
+    "static/js/main.23cfcf8c.js"
+  ]
+}
